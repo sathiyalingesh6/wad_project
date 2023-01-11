@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  min-height: 50px;
+  color: white;
+  margin-right: 3.5rem;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.header ul li {
+  margin-left: 2rem;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.container {
+  width: 90vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .container-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .container-left .text {
+  width: 30vw;
+}
+
+.container .container-left .text img {
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: -40px;
+}
+
+.container .container-left .text p {
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  min-width: 20vw;
+  max-width: 25vw;
+}
+
+.container .container-left .image img {
+  height: 400px;
+}
+
+.container .container-right .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .container-right img {
+  height: 200px;
+}
+
+.container .container-right .laksh {
+  position: absolute;
+  margin-top: 550px;
+  margin-left: -10px;
+}
+
+.container .container-right .india img {
+  height: 700px;
+}
+
+.container .container-right .andaman {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 480px;
+}
+/*# sourceMappingURL=style.css.map */

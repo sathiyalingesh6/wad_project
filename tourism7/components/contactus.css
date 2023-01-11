@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("../images/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    min-height: 50px;
+    color: white;
+    margin-right: 3.5rem;
+  }
+  
+  .header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+  }
+  
+  .header ul li {
+    margin-left: 2rem;
+  }
+  
+  .header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 45%;
+    margin-top: 16px;
+    padding: 30px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

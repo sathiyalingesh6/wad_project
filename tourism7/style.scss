@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background-image: url("images/bg.jpeg");
+}
+
+.header {
+  display: flex;
+  float: right;
+  min-height: 50px;
+  color: white;
+  margin-right: 3.5rem;
+}
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.header ul li {
+  margin-left: 2rem;
+}
+.header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  .container-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    .text {
+        width: 30vw;
+      img{
+          height: 200px;
+          object-fit: contain;
+          margin-bottom: -40px;
+      }
+      p{
+        font-size: 1.1em;
+        color: #fff;
+        margin: 20px 0;
+        font-weight: 400;
+        min-width: 20vw;
+        max-width: 25vw;
+
+      }
+    }
+    .image{
+        img{
+            height: 300px;
+        }
+    }
+
+  }
+  .container-right{
+    .map{
+      display: flex;
+    }
+    img{
+      height: 200px;
+
+    }
+    .laksh{
+      position: absolute;
+      margin-top: 400px;
+      margin-left: -50px;
+    }
+
+    .india{
+      img{
+        height: 550px;
+      }
+    }
+    .andaman{
+      position: absolute;
+      margin-top: 400px;
+      margin-left: 300px;
+    }
+
+
+
+  }
+}
